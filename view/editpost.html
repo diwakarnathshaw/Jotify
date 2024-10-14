@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/stylesheet/stylesheet.css" />
+    <title>Jotify | Update Note</title>
+  </head>
+  <body>
+    <h1 class="organization-name">Welcome to Jotify</h1>
+    <h2 class="community-name">Take A Note Within a Snap of Finger</h2>
+    <h3 class="page-info">Update Existing Post</h3>
+    <form id="update-post-form" class="post-container">
+      <div>
+        <label for="posthead">Post Header</label>
+        <input id="posthead" name="posthead" type="text" placeholder="Enter title..." required />
+      </div>
+      <div>
+        <label for="postbody">Post Body</label>
+        <textarea id="postbody" name="postbody" placeholder="Add description for better understanding..."></textarea>
+      </div>
+      <button id="cancel-btn">Cancel</button>
+      <button>Update Post</button>
+    </form>
+    <div id="message-indicator" class="indicator-container"></div>
+    <script src="../controller/editpost.js"></script>
+  </body>
+</html>
